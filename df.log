@@ -1,0 +1,13 @@
+Filesystem           1K-ブロック    使用   使用可 使用% マウント位置
+/dev/mapper/vg_devsv03-lv_root
+                      51606140  10202672  38782028  21% /
+proc                         0         0         0   -  /proc
+sysfs                        0         0         0   -  /sys
+devpts                       0         0         0   -  /dev/pts
+tmpfs                  8162788         0   8162788   0% /dev/shm
+/dev/sdb1               495844     37546    432698   8% /boot
+/dev/mapper/vg_devsv03-lv_home
+                     412849328 318265684  73612124  82% /home
+none                         0         0         0   -  /proc/sys/fs/binfmt_misc
+sunrpc                       0         0         0   -  /var/lib/nfs/rpc_pipefs
+/dev/sda1            173063488 127897672  36374648  78% /disk/disk1
