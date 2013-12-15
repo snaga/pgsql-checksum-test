@@ -1,0 +1,592 @@
+ shared_buffers
+----------------
+ 16MB
+(1 行)
+
+ pg_size_pretty
+----------------
+ 7483 MB
+(1 行)
+
+CHECKPOINT
+ pg_stat_reset
+---------------
+
+(1 行)
+
+Running pgbench...
+starting vacuum...end.
+transaction type: SELECT only
+scaling factor: 500
+query mode: simple
+number of clients: 8
+number of threads: 1
+number of transactions per client: 10000
+number of transactions actually processed: 80000/80000
+tps = 11840.527046 (including connections establishing)
+tps = 11885.301492 (excluding connections establishing)
+拡張表示は on です。
+-[ RECORD 1 ]---------+------------------------------
+checkpoints_timed     | 0
+checkpoints_req       | 3
+checkpoint_write_time | 11
+checkpoint_sync_time  | 57
+buffers_checkpoint    | 557
+buffers_clean         | 1
+maxwritten_clean      | 0
+buffers_backend       | 2459026
+buffers_backend_fsync | 0
+buffers_alloc         | 169701
+stats_reset           | 2013-12-14 23:44:52.812352+09
+
+-[ RECORD 1 ]--+------------------------------
+datid          | 16384
+datname        | testdb
+numbackends    | 1
+xact_commit    | 80021
+xact_rollback  | 0
+blks_read      | 168894
+blks_hit       | 232692
+tup_returned   | 83044
+tup_fetched    | 80423
+tup_inserted   | 0
+tup_updated    | 1
+tup_deleted    | 0
+conflicts      | 0
+temp_files     | 0
+temp_bytes     | 0
+deadlocks      | 0
+blk_read_time  | 35701.645
+blk_write_time | 0.182
+stats_reset    | 2013-12-14 23:47:21.141663+09
+
+Repeating.
+CHECKPOINT
+ pg_stat_reset
+---------------
+
+(1 行)
+
+Running pgbench...
+starting vacuum...end.
+transaction type: SELECT only
+scaling factor: 500
+query mode: simple
+number of clients: 8
+number of threads: 1
+number of transactions per client: 10000
+number of transactions actually processed: 80000/80000
+tps = 5884.130727 (including connections establishing)
+tps = 5895.230118 (excluding connections establishing)
+拡張表示は on です。
+-[ RECORD 1 ]---------+------------------------------
+checkpoints_timed     | 0
+checkpoints_req       | 4
+checkpoint_write_time | 11
+checkpoint_sync_time  | 59
+buffers_checkpoint    | 557
+buffers_clean         | 1
+maxwritten_clean      | 0
+buffers_backend       | 2459037
+buffers_backend_fsync | 0
+buffers_alloc         | 338339
+stats_reset           | 2013-12-14 23:44:52.812352+09
+
+-[ RECORD 1 ]--+------------------------------
+datid          | 16384
+datname        | testdb
+numbackends    | 1
+xact_commit    | 80019
+xact_rollback  | 0
+blks_read      | 168800
+blks_hit       | 232729
+tup_returned   | 82118
+tup_fetched    | 80412
+tup_inserted   | 0
+tup_updated    | 1
+tup_deleted    | 0
+conflicts      | 0
+temp_files     | 0
+temp_bytes     | 0
+deadlocks      | 0
+blk_read_time  | 97065.781
+blk_write_time | 0.046
+stats_reset    | 2013-12-14 23:47:28.210516+09
+
+Repeating.
+CHECKPOINT
+ pg_stat_reset
+---------------
+
+(1 行)
+
+Running pgbench...
+starting vacuum...end.
+transaction type: SELECT only
+scaling factor: 500
+query mode: simple
+number of clients: 8
+number of threads: 1
+number of transactions per client: 10000
+number of transactions actually processed: 80000/80000
+tps = 6171.277164 (including connections establishing)
+tps = 6183.489804 (excluding connections establishing)
+拡張表示は on です。
+-[ RECORD 1 ]---------+------------------------------
+checkpoints_timed     | 0
+checkpoints_req       | 5
+checkpoint_write_time | 11
+checkpoint_sync_time  | 59
+buffers_checkpoint    | 557
+buffers_clean         | 1
+maxwritten_clean      | 0
+buffers_backend       | 2459043
+buffers_backend_fsync | 0
+buffers_alloc         | 505534
+stats_reset           | 2013-12-14 23:44:52.812352+09
+
+-[ RECORD 1 ]--+------------------------------
+datid          | 16384
+datname        | testdb
+numbackends    | 1
+xact_commit    | 80019
+xact_rollback  | 0
+blks_read      | 168829
+blks_hit       | 232720
+tup_returned   | 82118
+tup_fetched    | 80412
+tup_inserted   | 0
+tup_updated    | 1
+tup_deleted    | 0
+conflicts      | 0
+temp_files     | 0
+temp_bytes     | 0
+deadlocks      | 0
+blk_read_time  | 91973.628
+blk_write_time | 0.038
+stats_reset    | 2013-12-14 23:47:41.981917+09
+
+Repeating.
+CHECKPOINT
+ pg_stat_reset
+---------------
+
+(1 行)
+
+Running pgbench...
+starting vacuum...end.
+transaction type: SELECT only
+scaling factor: 500
+query mode: simple
+number of clients: 8
+number of threads: 1
+number of transactions per client: 10000
+number of transactions actually processed: 80000/80000
+tps = 6496.126563 (including connections establishing)
+tps = 6509.461013 (excluding connections establishing)
+拡張表示は on です。
+-[ RECORD 1 ]---------+------------------------------
+checkpoints_timed     | 0
+checkpoints_req       | 6
+checkpoint_write_time | 11
+checkpoint_sync_time  | 59
+buffers_checkpoint    | 557
+buffers_clean         | 1
+maxwritten_clean      | 0
+buffers_backend       | 2459049
+buffers_backend_fsync | 0
+buffers_alloc         | 676353
+stats_reset           | 2013-12-14 23:44:52.812352+09
+
+-[ RECORD 1 ]--+-----------------------------
+datid          | 16384
+datname        | testdb
+numbackends    | 1
+xact_commit    | 80019
+xact_rollback  | 0
+blks_read      | 168815
+blks_hit       | 232749
+tup_returned   | 82118
+tup_fetched    | 80412
+tup_inserted   | 0
+tup_updated    | 1
+tup_deleted    | 0
+conflicts      | 0
+temp_files     | 0
+temp_bytes     | 0
+deadlocks      | 0
+blk_read_time  | 86415.135
+blk_write_time | 0.039
+stats_reset    | 2013-12-14 23:47:55.11283+09
+
+Repeating.
+CHECKPOINT
+ pg_stat_reset
+---------------
+
+(1 行)
+
+Running pgbench...
+starting vacuum...end.
+transaction type: SELECT only
+scaling factor: 500
+query mode: simple
+number of clients: 8
+number of threads: 1
+number of transactions per client: 10000
+number of transactions actually processed: 80000/80000
+tps = 6450.970928 (including connections establishing)
+tps = 6463.993536 (excluding connections establishing)
+拡張表示は on です。
+-[ RECORD 1 ]---------+------------------------------
+checkpoints_timed     | 0
+checkpoints_req       | 7
+checkpoint_write_time | 11
+checkpoint_sync_time  | 59
+buffers_checkpoint    | 557
+buffers_clean         | 1
+maxwritten_clean      | 0
+buffers_backend       | 2459055
+buffers_backend_fsync | 0
+buffers_alloc         | 842919
+stats_reset           | 2013-12-14 23:44:52.812352+09
+
+-[ RECORD 1 ]--+------------------------------
+datid          | 16384
+datname        | testdb
+numbackends    | 1
+xact_commit    | 80019
+xact_rollback  | 0
+blks_read      | 168699
+blks_hit       | 232875
+tup_returned   | 82118
+tup_fetched    | 80412
+tup_inserted   | 0
+tup_updated    | 1
+tup_deleted    | 0
+conflicts      | 0
+temp_files     | 0
+temp_bytes     | 0
+deadlocks      | 0
+blk_read_time  | 86849.287
+blk_write_time | 0.039
+stats_reset    | 2013-12-14 23:48:07.597701+09
+
+Repeating.
+CHECKPOINT
+ pg_stat_reset
+---------------
+
+(1 行)
+
+Running pgbench...
+starting vacuum...end.
+transaction type: SELECT only
+scaling factor: 500
+query mode: simple
+number of clients: 8
+number of threads: 1
+number of transactions per client: 10000
+number of transactions actually processed: 80000/80000
+tps = 6295.542347 (including connections establishing)
+tps = 6308.040875 (excluding connections establishing)
+拡張表示は on です。
+-[ RECORD 1 ]---------+------------------------------
+checkpoints_timed     | 0
+checkpoints_req       | 8
+checkpoint_write_time | 11
+checkpoint_sync_time  | 59
+buffers_checkpoint    | 557
+buffers_clean         | 2
+maxwritten_clean      | 0
+buffers_backend       | 2459061
+buffers_backend_fsync | 0
+buffers_alloc         | 1013609
+stats_reset           | 2013-12-14 23:44:52.812352+09
+
+-[ RECORD 1 ]--+------------------------------
+datid          | 16384
+datname        | testdb
+numbackends    | 1
+xact_commit    | 80021
+xact_rollback  | 0
+blks_read      | 168784
+blks_hit       | 232817
+tup_returned   | 83044
+tup_fetched    | 80423
+tup_inserted   | 0
+tup_updated    | 1
+tup_deleted    | 0
+conflicts      | 0
+temp_files     | 0
+temp_bytes     | 0
+deadlocks      | 0
+blk_read_time  | 88819.729
+blk_write_time | 0.039
+stats_reset    | 2013-12-14 23:48:20.184774+09
+
+Repeating.
+CHECKPOINT
+ pg_stat_reset
+---------------
+
+(1 行)
+
+Running pgbench...
+starting vacuum...end.
+transaction type: SELECT only
+scaling factor: 500
+query mode: simple
+number of clients: 8
+number of threads: 1
+number of transactions per client: 10000
+number of transactions actually processed: 80000/80000
+tps = 6226.311802 (including connections establishing)
+tps = 6238.453986 (excluding connections establishing)
+拡張表示は on です。
+-[ RECORD 1 ]---------+------------------------------
+checkpoints_timed     | 0
+checkpoints_req       | 9
+checkpoint_write_time | 11
+checkpoint_sync_time  | 59
+buffers_checkpoint    | 557
+buffers_clean         | 2
+maxwritten_clean      | 0
+buffers_backend       | 2459067
+buffers_backend_fsync | 0
+buffers_alloc         | 1182512
+stats_reset           | 2013-12-14 23:44:52.812352+09
+
+-[ RECORD 1 ]--+------------------------------
+datid          | 16384
+datname        | testdb
+numbackends    | 1
+xact_commit    | 80019
+xact_rollback  | 0
+blks_read      | 168718
+blks_hit       | 232840
+tup_returned   | 82118
+tup_fetched    | 80412
+tup_inserted   | 0
+tup_updated    | 1
+tup_deleted    | 0
+conflicts      | 0
+temp_files     | 0
+temp_bytes     | 0
+deadlocks      | 0
+blk_read_time  | 90058.049
+blk_write_time | 0.037
+stats_reset    | 2013-12-14 23:48:33.051666+09
+
+Repeating.
+CHECKPOINT
+ pg_stat_reset
+---------------
+
+(1 行)
+
+Running pgbench...
+starting vacuum...end.
+transaction type: SELECT only
+scaling factor: 500
+query mode: simple
+number of clients: 8
+number of threads: 1
+number of transactions per client: 10000
+number of transactions actually processed: 80000/80000
+tps = 6341.666309 (including connections establishing)
+tps = 6354.445741 (excluding connections establishing)
+拡張表示は on です。
+-[ RECORD 1 ]---------+------------------------------
+checkpoints_timed     | 0
+checkpoints_req       | 10
+checkpoint_write_time | 11
+checkpoint_sync_time  | 59
+buffers_checkpoint    | 557
+buffers_clean         | 2
+maxwritten_clean      | 0
+buffers_backend       | 2459073
+buffers_backend_fsync | 0
+buffers_alloc         | 1351695
+stats_reset           | 2013-12-14 23:44:52.812352+09
+
+-[ RECORD 1 ]--+------------------------------
+datid          | 16384
+datname        | testdb
+numbackends    | 1
+xact_commit    | 80019
+xact_rollback  | 0
+blks_read      | 168818
+blks_hit       | 232713
+tup_returned   | 82118
+tup_fetched    | 80412
+tup_inserted   | 0
+tup_updated    | 1
+tup_deleted    | 0
+conflicts      | 0
+temp_files     | 0
+temp_bytes     | 0
+deadlocks      | 0
+blk_read_time  | 89076.657
+blk_write_time | 0.038
+stats_reset    | 2013-12-14 23:48:46.059992+09
+
+Repeating.
+CHECKPOINT
+ pg_stat_reset
+---------------
+
+(1 行)
+
+Running pgbench...
+starting vacuum...end.
+transaction type: SELECT only
+scaling factor: 500
+query mode: simple
+number of clients: 8
+number of threads: 1
+number of transactions per client: 10000
+number of transactions actually processed: 80000/80000
+tps = 6429.024732 (including connections establishing)
+tps = 6442.044389 (excluding connections establishing)
+拡張表示は on です。
+-[ RECORD 1 ]---------+------------------------------
+checkpoints_timed     | 0
+checkpoints_req       | 11
+checkpoint_write_time | 11
+checkpoint_sync_time  | 59
+buffers_checkpoint    | 557
+buffers_clean         | 2
+maxwritten_clean      | 0
+buffers_backend       | 2459079
+buffers_backend_fsync | 0
+buffers_alloc         | 1518182
+stats_reset           | 2013-12-14 23:44:52.812352+09
+
+-[ RECORD 1 ]--+------------------------------
+datid          | 16384
+datname        | testdb
+numbackends    | 1
+xact_commit    | 80019
+xact_rollback  | 0
+blks_read      | 168641
+blks_hit       | 232923
+tup_returned   | 82118
+tup_fetched    | 80412
+tup_inserted   | 0
+tup_updated    | 1
+tup_deleted    | 0
+conflicts      | 0
+temp_files     | 0
+temp_bytes     | 0
+deadlocks      | 0
+blk_read_time  | 89030.439
+blk_write_time | 0.038
+stats_reset    | 2013-12-14 23:48:58.865801+09
+
+Repeating.
+CHECKPOINT
+ pg_stat_reset
+---------------
+
+(1 行)
+
+Running pgbench...
+starting vacuum...end.
+transaction type: SELECT only
+scaling factor: 500
+query mode: simple
+number of clients: 8
+number of threads: 1
+number of transactions per client: 10000
+number of transactions actually processed: 80000/80000
+tps = 6404.913850 (including connections establishing)
+tps = 6417.737600 (excluding connections establishing)
+拡張表示は on です。
+-[ RECORD 1 ]---------+------------------------------
+checkpoints_timed     | 0
+checkpoints_req       | 12
+checkpoint_write_time | 11
+checkpoint_sync_time  | 59
+buffers_checkpoint    | 557
+buffers_clean         | 2
+maxwritten_clean      | 0
+buffers_backend       | 2459085
+buffers_backend_fsync | 0
+buffers_alloc         | 1689074
+stats_reset           | 2013-12-14 23:44:52.812352+09
+
+-[ RECORD 1 ]--+-----------------------------
+datid          | 16384
+datname        | testdb
+numbackends    | 1
+xact_commit    | 80021
+xact_rollback  | 0
+blks_read      | 168722
+blks_hit       | 232858
+tup_returned   | 83044
+tup_fetched    | 80423
+tup_inserted   | 0
+tup_updated    | 1
+tup_deleted    | 0
+conflicts      | 0
+temp_files     | 0
+temp_bytes     | 0
+deadlocks      | 0
+blk_read_time  | 88178.018
+blk_write_time | 0.073
+stats_reset    | 2013-12-14 23:49:11.46567+09
+
+Repeating.
+CHECKPOINT
+ pg_stat_reset
+---------------
+
+(1 行)
+
+Running pgbench...
+starting vacuum...end.
+transaction type: SELECT only
+scaling factor: 500
+query mode: simple
+number of clients: 8
+number of threads: 1
+number of transactions per client: 10000
+number of transactions actually processed: 80000/80000
+tps = 6472.107039 (including connections establishing)
+tps = 6485.456000 (excluding connections establishing)
+拡張表示は on です。
+-[ RECORD 1 ]---------+------------------------------
+checkpoints_timed     | 0
+checkpoints_req       | 13
+checkpoint_write_time | 11
+checkpoint_sync_time  | 59
+buffers_checkpoint    | 557
+buffers_clean         | 2
+maxwritten_clean      | 0
+buffers_backend       | 2459092
+buffers_backend_fsync | 0
+buffers_alloc         | 1856716
+stats_reset           | 2013-12-14 23:44:52.812352+09
+
+-[ RECORD 1 ]--+------------------------------
+datid          | 16384
+datname        | testdb
+numbackends    | 1
+xact_commit    | 80019
+xact_rollback  | 0
+blks_read      | 168734
+blks_hit       | 232805
+tup_returned   | 82118
+tup_fetched    | 80412
+tup_inserted   | 0
+tup_updated    | 1
+tup_deleted    | 0
+conflicts      | 0
+temp_files     | 0
+temp_bytes     | 0
+deadlocks      | 0
+blk_read_time  | 88547.435
+blk_write_time | 0.036
+stats_reset    | 2013-12-14 23:49:24.121919+09
+
